@@ -222,17 +222,11 @@
     (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/63906891-0812-4d6d-bc35-141a7b38869b"
       (reference "D3") (unit 1) (value "PESD1CAN") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/35f5bcdd-2028-4010-8a0a-d40ffe65cc56"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "footprint-lib:MountingHole_3.1mm_M3,rpi_like")
-    )
     (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/6e67141e-10f6-4236-8cd3-ff4375acc8da"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "footprint-lib:MountingHole_3.1mm_M3,rpi_like")
-    )
-    (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/a10e7213-1c98-4b04-aa9a-6a9c4f9be34b"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "footprint-lib:MountingHole_3.1mm_M3,rpi_like")
+      (reference "H?") (unit 1) (value "MountingHole") (footprint "")
     )
     (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/c546fb29-ecb0-4e79-aa38-a734eb1fb469"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "footprint-lib:MountingHole_3.1mm_M3,rpi_like")
+      (reference "H?") (unit 1) (value "MountingHole") (footprint "")
     )
     (path "/b671a199-1e99-42ef-88d6-15e20019f08b/60807725-bee8-4552-8652-172befee932e"
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
