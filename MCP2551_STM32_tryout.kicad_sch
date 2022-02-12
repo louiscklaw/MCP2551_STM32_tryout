@@ -231,6 +231,24 @@
     (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/6906d781-0a64-4a61-b833-dcec46227b4b"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
+    (path "/b671a199-1e99-42ef-88d6-15e20019f08b/047626dc-c4c1-4044-bac0-bce77788cf84"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/d5864c04-040e-491e-a513-62c6f466a07d/7d97e6ab-39d1-449f-a1aa-f526cd27362e"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/7f4a9ce9-8eb9-4bb2-8685-023d925acb70"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/6755b74c-d77c-4d6f-b437-77a2b6f81eae/8cebf7af-59db-40a1-88df-8bf2222163c2"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/d5864c04-040e-491e-a513-62c6f466a07d/bece5398-703c-444d-b57c-69e7e2c4d999"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
+    (path "/b671a199-1e99-42ef-88d6-15e20019f08b/c189f7f3-130a-4c75-b678-8cfabe5bd607"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Open_arrow") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+    )
     (path "/b671a199-1e99-42ef-88d6-15e20019f08b/a829a206-ae60-4620-97a0-9ec46d3a67be"
       (reference "R1") (unit 1) (value "R472,0805") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
