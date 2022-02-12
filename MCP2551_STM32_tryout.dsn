@@ -39,137 +39,162 @@
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (clearance 500.1)
+      (clearance 500.1 (type default_smd))
+      (clearance 125 (type smd_smd))
     )
   )
   (placement
+    (component "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+      (place JP5 98085.000000 -106100.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place JP1 94565.000000 -49245.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place JP6 98085.000000 -103560.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place JP4 98085.000000 -74860.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place JP2 94565.000000 -46705.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place JP3 98085.000000 -72320.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+    )
     (component Resistor_SMD:R_0805_2012Metric
-      (place R8 89830.000000 -104830.000000 front -90.000000 (PN R121,0805))
+      (place R11 91000.000000 -97980.000000 front 90.000000 (PN R121,0805))
     )
     (component Resistor_SMD:R_0805_2012Metric::1
-      (place R6 86020.000000 -98500.000000 front 90.000000 (PN R101,0805))
+      (place R9 96000.000000 -91000.000000 front 90.000000 (PN R101,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric
-      (place C5 83480.000000 -98480.000000 front 90.000000 (PN C561,0805))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-      (place JP6 94565.000000 -49245.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place C7 84000.000000 -90949.999000 front 90.000000 (PN C561,0805))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
-      (place J2 94275.000000 -103560.000000 front 0.000000 (PN Conn_01x02))
+      (place J3 94275.000000 -103560.000000 front 0.000000 (PN Conn_01x02))
     )
     (component Capacitor_SMD:C_0805_2012Metric::1
-      (place C2 87925.000000 -69270.000000 front 90.000000 (PN C561,0805))
+      (place C5 87925.000000 -69270.000000 front 90.000000 (PN C561,0805))
     )
     (component "Kicad-STM32:YAAJ_BluePill_SWD_2"
-      (place U3 77130.000000 -89590.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::1"
-      (place JP3 98085.000000 -103560.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place U5 77130.000000 -89590.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical::1
-      (place J3 90755.000000 -46705.000000 front 0.000000 (PN Conn_01x02))
+      (place J1 90755.000000 -46705.000000 front 0.000000 (PN Conn_01x02))
     )
     (component "Kicad-STM32:YAAJ_BluePill_SWD_2::1"
-      (place U1 77130.000000 -60380.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
+      (place U3 77130.000000 -60380.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-      (place U4 90465.000000 -90860.000000 front 0.000000 (PN MCP2551))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::2"
-      (place JP2 98085.000000 -74860.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place U6 90465.000000 -90860.000000 front 0.000000 (PN MCP2551))
     )
     (component Capacitor_SMD:C_0805_2012Metric::2
-      (place C7 83385.000000 -33455.000000 front 90.000000 (PN C104))
+      (place C1 83385.000000 -33455.000000 front 90.000000 (PN C104))
     )
     (component Resistor_SMD:R_0805_2012Metric::2
-      (place R1 96815.000000 -63197.500000 front 90.000000 (PN R472,0805))
+      (place R5 96815.000000 -63197.500000 front 90.000000 (PN R472,0805))
     )
     (component "footprint-lib:MountingHole_3.1mm_M3,rpi_like"
-      (place H1 25000.000000 -115000.000000 front 0.000000 (PN MountingHole))
-      (place H3 115000.000000 -25000.000000 front 0.000000 (PN MountingHole))
-      (place H4 25000.000000 -25000.000000 front 0.000000 (PN MountingHole))
-      (place H2 115000.000000 -115000.000000 front 0.000000 (PN MountingHole))
+      (place H3 25000.000000 -115000.000000 front 0.000000 (PN MountingHole))
+      (place H2 115000.000000 -25000.000000 front 0.000000 (PN MountingHole))
+      (place H1 25000.000000 -25000.000000 front 0.000000 (PN MountingHole))
+      (place H4 115000.000000 -115000.000000 front 0.000000 (PN MountingHole))
     )
     (component Resistor_SMD:R_0805_2012Metric::3
-      (place R9 95450.000000 -33470.000000 front 90.000000 (PN R472,0805))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::3"
-      (place JP5 94565.000000 -46705.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place R1 95450.000000 -33470.000000 front 90.000000 (PN R472,0805))
     )
     (component Resistor_SMD:R_0805_2012Metric::4
-      (place R2 90465.000000 -69250.000000 front 90.000000 (PN R101,0805))
+      (place R7 90465.000000 -69250.000000 front 90.000000 (PN R101,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric::3
-      (place C9 83025.001000 -40745.000000 front 90.000000 (PN C561,0805))
+      (place C2 83025.000000 -40745.000000 front 90.000000 (PN C561,0805))
     )
     (component Resistor_SMD:R_0805_2012Metric::5
-      (place R10 90565.000000 -40705.000000 front 90.000000 (PN R101,0805))
+      (place R4 90565.000000 -40705.000000 front 90.000000 (PN R101,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric::4
-      (place C8 88055.002000 -40725.000000 front 90.000000 (PN C561,0805))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::4"
-      (place JP1 98085.000000 -72320.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place C3 88055.000000 -40725.000000 front 90.000000 (PN C561,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric::5
-      (place C3 82815.000000 -69270.000000 front 90.000000 (PN C561,0805))
+      (place C6 82815.000000 -69270.000000 front 90.000000 (PN C561,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric::6
-      (place C4 83555.000000 -90860.000000 front 90.000000 (PN C104))
+      (place C9 94000.000000 -98000.000000 front 90.000000 (PN C104))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
-      (place U2 90540.000000 -62920.000000 front 0.000000 (PN MCP2551))
+      (place U4 90540.000000 -62920.000000 front 0.000000 (PN MCP2551))
     )
     (component Resistor_SMD:R_0805_2012Metric::6
-      (place R11 85565.000000 -40705.000000 front 90.000000 (PN R101,0805))
+      (place R2 85565.000000 -40705.000000 front 90.000000 (PN R101,0805))
     )
     (component "Package_TO_SOT_SMD:SOT-23"
-      (place D1 84522.500000 -75620.000000 front 0.000000 (PN PESD1CAN))
+      (place D2 84522.500000 -75620.000000 front 0.000000 (PN PESD1CAN))
     )
     (component "Kicad-STM32:YAAJ_BluePill_SWD_2::2"
-      (place U5 77130.000000 -32440.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
+      (place U1 77130.000000 -32440.000000 front -90.000000 (PN YAAJ_BluePill_Part_Like_SWD_Breakout))
     )
     (component "Package_TO_SOT_SMD:SOT-23::1"
-      (place D3 83565.000000 -47705.000000 front 0.000000 (PN PESD1CAN))
-    )
-    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::5"
-      (place JP4 98085.000000 -106100.000000 front 0.000000 (PN SolderJumper_2_Open_arrow))
+      (place D1 83565.000000 -47705.000000 front 0.000000 (PN PESD1CAN))
     )
     (component Resistor_SMD:R_0805_2012Metric::7
-      (place R4 89830.000000 -73715.000000 front -90.000000 (PN R121,0805))
+      (place R8 89830.000000 -73715.000000 front -90.000000 (PN R121,0805))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical::2
-      (place J1 94275.000000 -72445.000000 front 0.000000 (PN Conn_01x02))
+      (place J2 94275.000000 -72445.000000 front 0.000000 (PN Conn_01x02))
     )
     (component Resistor_SMD:R_0805_2012Metric::8
-      (place R12 87755.000000 -47600.000000 front -90.000000 (PN R121,0805))
+      (place R3 87755.000000 -47600.000000 front -90.000000 (PN R121,0805))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::2"
-      (place U6 89565.000000 -33705.000000 front 0.000000 (PN MCP2551))
+      (place U2 89565.000000 -33705.000000 front 0.000000 (PN MCP2551))
     )
     (component Capacitor_SMD:C_0805_2012Metric::7
-      (place C1 83480.000000 -63235.000000 front 90.000000 (PN C104))
+      (place C4 83480.000000 -63235.000000 front 90.000000 (PN C104))
     )
     (component Resistor_SMD:R_0805_2012Metric::9
-      (place R7 91100.000000 -98500.000000 front 90.000000 (PN R101,0805))
+      (place R10 84000.000000 -97980.000000 front -90.000000 (PN R101,0805))
     )
     (component Capacitor_SMD:C_0805_2012Metric::8
-      (place C6 88560.000000 -98480.000000 front 90.000000 (PN C561,0805))
+      (place C8 87000.000000 -98000.000000 front 90.000000 (PN C561,0805))
     )
     (component "Package_TO_SOT_SMD:SOT-23::2"
-      (place D2 84115.000000 -105465.000000 front 0.000000 (PN PESD1CAN))
+      (place D3 84115.000000 -105465.000000 front 0.000000 (PN PESD1CAN))
     )
     (component Resistor_SMD:R_0805_2012Metric::10
-      (place R3 85385.000000 -69250.000000 front -90.000000 (PN R101,0805))
+      (place R6 85385.000000 -69250.000000 front -90.000000 (PN R101,0805))
     )
     (component Resistor_SMD:R_0805_2012Metric::11
-      (place R5 96815.000000 -90860.000000 front 90.000000 (PN R472,0805))
+      (place R12 91000.000000 -105000.000000 front -90.000000 (PN R472,0805))
     )
   )
   (library
+    (image "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+      (outline (path signal 120  -700 1000  700 1000))
+      (outline (path signal 120  700 -1000  -700 -1000))
+      (outline (path signal 120  1400 300  1400 -300))
+      (outline (path signal 120  -1400 -300  -1400 300))
+      (outline (path signal 0  1276.62 577.686  1200.37 699.034  1099.03 800.372  977.686 876.62
+            842.414 923.954  700 940  657.574 957.574  640 1000  657.574 1042.43
+            700 1060  848.269 1045.4  990.84 1002.15  1122.23 931.917  1237.4 837.401
+            1331.92 722.234  1402.15 590.84  1445.4 448.269  1460 300  1442.43 257.574
+            1400 240  1357.57 257.574  1340 300  1323.95 442.414))
+      (outline (path signal 0  -1402.15 590.84  -1331.92 722.234  -1237.4 837.401  -1122.23 931.917
+            -990.84 1002.15  -848.269 1045.4  -700 1060  -657.574 1042.43
+            -640 1000  -657.574 957.574  -700 940  -842.414 923.954  -977.686 876.62
+            -1099.03 800.372  -1200.37 699.034  -1276.62 577.686  -1323.95 442.414
+            -1340 300  -1357.57 257.574  -1400 240  -1442.43 257.574  -1460 300
+            -1445.4 448.269))
+      (outline (path signal 0  -1357.57 -257.574  -1340 -300  -1323.95 -442.414  -1276.62 -577.686
+            -1200.37 -699.034  -1099.03 -800.372  -977.686 -876.62  -842.414 -923.954
+            -700 -940  -657.574 -957.574  -640 -1000  -657.574 -1042.43
+            -700 -1060  -848.269 -1045.4  -990.84 -1002.15  -1122.23 -931.917
+            -1237.4 -837.401  -1331.92 -722.234  -1402.15 -590.84  -1445.4 -448.269
+            -1460 -300  -1442.43 -257.574  -1400 -240))
+      (outline (path signal 0  640 -1000  657.574 -957.574  700 -940  842.414 -923.954
+            977.686 -876.62  1099.03 -800.372  1200.37 -699.034  1276.62 -577.686
+            1323.95 -442.414  1340 -300  1357.57 -257.574  1400 -240  1442.43 -257.574
+            1460 -300  1445.4 -448.269  1402.15 -590.84  1331.92 -722.234
+            1237.4 -837.401  1122.23 -931.917  990.84 -1002.15  848.269 -1045.4
+            700 -1060  657.574 -1042.43))
+      (outline (path signal 50  -1650 1250  -1650 -1250))
+      (outline (path signal 50  1650 -1250  1650 1250))
+      (outline (path signal 50  -1650 1250  1650 1250))
+      (outline (path signal 50  1650 -1250  -1650 -1250))
+      (pin Cust[T]Pad_1000x500_1000x_1500_18_um_C31E14C175DC698G0DG4ED21F27D3BGB 1 -650 0)
+      (pin Cust[T]Pad_1000x500_1000x_1500_18_um_51622C4E0DF7212BECEB679820B2ECCE 2 650 0)
+    )
     (image Resistor_SMD:R_0805_2012Metric
       (outline (path signal 120  -227.064 -735  227.064 -735))
       (outline (path signal 120  -227.064 735  227.064 735))
@@ -211,18 +236,6 @@
       (outline (path signal 100  1000 -625  -1000 -625))
       (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 1 -950 0)
       (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 2 950 0)
-    )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
     )
     (image Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
       (outline (path signal 120  -1330 -1270  -1330 -3870))
@@ -356,18 +369,6 @@
       (pin Round[A]Pad_1700_um 42 8890 -44450)
       (pin Round[A]Pad_1700_um 43 6350 -44450)
       (pin Round[A]Pad_1700_um 44 3810 -44450)
-    )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::1"
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
     )
     (image Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical::1
       (outline (path signal 120  1330 1330  1330 0))
@@ -511,18 +512,6 @@
       (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 7 2475 635)
       (pin RoundRect[T]Pad_1950x600_150.571_um_0.000000_0 8 2475 1905)
     )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::2"
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
-    )
     (image Capacitor_SMD:C_0805_2012Metric::2
       (outline (path signal 120  -261.252 735  261.252 735))
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -619,18 +608,6 @@
       (pin RoundRect[T]Pad_1025x1400_250.951_um_0.000000_0 1 -912.5 0)
       (pin RoundRect[T]Pad_1025x1400_250.951_um_0.000000_0 2 912.5 0)
     )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::3"
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
-    )
     (image Resistor_SMD:R_0805_2012Metric::4
       (outline (path signal 120  -227.064 -735  227.064 -735))
       (outline (path signal 120  -227.064 735  227.064 735))
@@ -686,18 +663,6 @@
       (outline (path signal 100  -1000 625  1000 625))
       (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 1 -950 0)
       (pin RoundRect[T]Pad_1000x1450_250.951_um_0.000000_0 2 950 0)
-    )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::4"
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
     )
     (image Capacitor_SMD:C_0805_2012Metric::5
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -900,18 +865,6 @@
       (pin RoundRect[T]Pad_1475x600_150.571_um_0.000000_0 2 -937.5 -950)
       (pin RoundRect[T]Pad_1475x600_150.571_um_0.000000_0 3 937.5 0)
     )
-    (image "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::5"
-      (outline (path signal 120  1400 1000  1400 -1000))
-      (outline (path signal 120  -1400 1000  1400 1000))
-      (outline (path signal 120  -1400 -1000  -1400 1000))
-      (outline (path signal 120  1400 -1000  -1400 -1000))
-      (outline (path signal 50  1650 -1250  1650 1250))
-      (outline (path signal 50  1650 -1250  -1650 -1250))
-      (outline (path signal 50  -1650 1250  1650 1250))
-      (outline (path signal 50  -1650 1250  -1650 -1250))
-      (pin Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD 1 -725 0)
-      (pin Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519 2 725 0)
-    )
     (image Resistor_SMD:R_0805_2012Metric::7
       (outline (path signal 120  -227.064 -735  227.064 -735))
       (outline (path signal 120  -227.064 735  227.064 735))
@@ -1089,8 +1042,18 @@
             -500.951 475))
       (attach off)
     )
-    (padstack Cust[T]Pad_300x300_1500x_1500_6_um_0C946G98F8398E24F9D4CD1ECFC2G3CD
-      (shape (polygon F.Cu 0  -500 750  500 750  1000 0  500 -750  -500 -750  -500 750))
+    (padstack Cust[T]Pad_1000x500_1000x_1500_18_um_C31E14C175DC698G0DG4ED21F27D3BGB
+      (shape (polygon F.Cu 0  -500 250  -499.963 256.109  -478.152 396.186  -417.904 524.511
+            -324.06 630.769  -204.165 706.417  -67.858 745.374  0 750  500 750
+            500 -750  0 -750  -79.941 -743.568  -215.256 -701.293  -333.266 -622.738
+            -424.486 -514.219  -481.581 -384.46  -500 -250  -500 250))
+      (attach off)
+    )
+    (padstack Cust[T]Pad_1000x500_1000x_1500_18_um_51622C4E0DF7212BECEB679820B2ECCE
+      (shape (polygon F.Cu 0  -500 750  0 750  73.905 744.508  209.726 703.889  328.688 626.782
+            421.226 519.385  479.903 390.333  500 250  500 -250  499.851 -262.216
+            476.331 -402.017  414.519 -529.596  319.384 -634.7  198.574 -708.877
+            61.801 -746.166  0 -750  -500 -750  -500 750))
       (attach off)
     )
     (padstack RoundRect[T]Pad_1025x1400_250.951_um_0.000000_0
@@ -1100,10 +1063,6 @@
             439.949 -627.449  358.535 -681.848  262.499 -700.95  -262.5 -700.951
             -358.535 -681.848  -439.949 -627.449  -494.348 -546.035  -513.45 -449.999
             -513.451 450))
-      (attach off)
-    )
-    (padstack Cust[T]Pad_300x300_1150x_1500_5_um_3DDE8286C8512EFDF32EG932C48F3519
-      (shape (polygon F.Cu 0  -650 750  500 750  500 -750  -650 -750  -650 750))
       (attach off)
     )
     (padstack RoundRect[T]Pad_1475x600_150.571_um_0.000000_0
@@ -1137,17 +1096,17 @@
   )
   (network
     (net +5V
-      (pins U3-18 U1-18 U4-3 C7-1 C4-1 U2-3 U5-18 U6-3 C1-1)
+      (pins C7-1 U5-18 U3-18 U6-3 C1-1 U4-3 U1-18 U2-3 C4-1)
     )
     (net GND
-      (pins C5-2 C2-2 U3-39 U1-39 U4-2 C7-2 R1-1 R9-1 C9-2 C8-2 C3-2 C4-2 U2-2 D1-3
-        U5-39 D3-3 U6-2 C1-2 C6-2 D2-3 R5-1)
+      (pins R9-1 C7-2 C5-2 U5-39 U3-39 U6-2 C1-2 R5-1 R1-1 C2-2 C3-2 C6-2 C9-2 U4-2
+        D2-3 U1-39 D1-3 U2-2 C4-2 C8-2 D3-3)
     )
     (net /stm32_1/CANH
-      (pins JP1-1 U2-7 D1-1 R4-1 J1-1 R3-1)
+      (pins JP1-1 J1-1 R4-1 D1-1 R3-1 U2-7)
     )
     (net /stm32_1/CANL
-      (pins JP2-1 R2-1 U2-6 D1-2 R4-2 J1-2)
+      (pins JP2-1 J1-2 R4-2 R2-1 D1-2 U2-6)
     )
     (net "unconnected-(U1-Pad40)"
       (pins U1-40)
@@ -1387,7 +1346,7 @@
       (pins U4-5)
     )
     (net "Net-(R5-Pad2)"
-      (pins U4-8 R5-2)
+      (pins R5-2 U4-8)
     )
     (net "unconnected-(U5-Pad40)"
       (pins U5-40)
@@ -1552,7 +1511,7 @@
       (pins C3-1 R3-2)
     )
     (net "Net-(C5-Pad1)"
-      (pins R6-2 C5-1)
+      (pins C5-1 R6-2)
     )
     (net "Net-(C6-Pad1)"
       (pins R7-2 C6-1)
@@ -1561,25 +1520,25 @@
       (pins R10-2 C8-1)
     )
     (net "Net-(C9-Pad1)"
-      (pins C9-1 R11-2)
+      (pins R11-2 C9-1)
     )
     (net /stm32_2/CANH
-      (pins R8-1 J2-1 JP3-1 U4-7 R7-1 D2-1)
+      (pins JP3-1 R7-1 U4-7 D2-1 R8-1 J2-1)
     )
     (net /stm32_2/CANL
-      (pins R8-2 R6-1 J2-2 U4-6 JP4-1 D2-2)
+      (pins JP4-1 U4-6 D2-2 R8-2 J2-2 R6-1)
     )
     (net /stm32_3/CANH
-      (pins J3-1 JP5-1 R11-1 D3-1 R12-1 U6-7)
+      (pins JP5-1 R11-1 J3-1 U6-7 D3-1 R12-1)
     )
     (net /stm32_3/CANL
-      (pins JP6-1 J3-2 R10-1 D3-2 R12-2 U6-6)
+      (pins JP6-1 J3-2 U6-6 R10-1 D3-2 R12-2)
     )
     (net /stm32_1/CAN_H
-      (pins JP3-2 JP5-2 JP1-2)
+      (pins JP5-2 JP1-2 JP3-2)
     )
     (net /stm32_1/CAN_L
-      (pins JP6-2 JP2-2 JP4-2)
+      (pins JP6-2 JP4-2 JP2-2)
     )
     (class kicad_default
       (circuit
@@ -1587,7 +1546,7 @@
       )
       (rule
         (width 250)
-        (clearance 200.1)
+        (clearance 500.1)
       )
     )
     (class 5V +5V
@@ -1595,8 +1554,8 @@
         (use_via Via[0-1]_800:400_um)
       )
       (rule
-        (width 5000)
-        (clearance 200.1)
+        (width 500)
+        (clearance 500.1)
       )
     )
     (class CANBUS /stm32_1/CAN_H /stm32_1/CAN_L
@@ -1605,7 +1564,7 @@
       )
       (rule
         (width 500)
-        (clearance 200.1)
+        (clearance 500.1)
       )
     )
     (class GND GND
@@ -1614,7 +1573,7 @@
       )
       (rule
         (width 1000)
-        (clearance 200.1)
+        (clearance 500.1)
       )
     )
   )
